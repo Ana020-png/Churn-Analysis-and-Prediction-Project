@@ -7,7 +7,7 @@ This project demonstrates a complete **ETL + Dashboard + Machine Learning** work
 
 ---
 
-## 📁 Dataset Overview
+## 📁 Dataset Overview - Customer_Data.csv
 
 - **Source**: Kaggle  
 - **Rows**: 6,419  
@@ -142,21 +142,16 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 ├── notebooks/
 │   └── churn_modeling.ipynb
 ├── powerbi/
-│   ├── churn_summary.pbix
-│   └── churn_prediction.pbix
+│   └── churn_analysis.pbix
 ├── docs/
-│   ├── Power Query Transformations.docx
-│   └── Python Codes for Random Forest.docx
+│   └── Power Query Transformations.docx
 ├── screenshots/
 │   ├── churn_summary_dashboard.png
-│   ├── churn_prediction_dashboard.png
-│   ├── sql_gender_output.png
-│   ├── sql_contract_output.png
-│   └── sql_revenue_output.png
+│   └── churn_prediction_dashboard.png
 ├── data/
-│   └── Predictions.csv
-├── README.md
-└── requirements.txt
+│   ├── Predictions.csv
+|   └── Prediction_Data.xlmx
+└──  README.md
 ```
 
 ---
@@ -164,7 +159,7 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 ## ✅ How to Run
 
 1. Execute SQL scripts in `/sql` to load & clean data and create views.
-2. Open Power BI `.pbix` files and link them to your SQL views.
+2. Open Power BI `churn_analysis.pbix` files and link them to your SQL views.
 3. Run `churn_modeling.ipynb` to train model and save predictions.
 4. Reload predictions into Power BI for visualization.
 
