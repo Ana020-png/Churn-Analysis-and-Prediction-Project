@@ -122,6 +122,16 @@ SELECT * FROM prod_Churn WHERE Customer_Status = 'Joined';
 | Churned  | 1732      | 17.5%     |
 | Joined   | 411       | 0.25%     |
 
+### Customer Distribution by State (Top 5)
+| State          | Customers | Percentage |
+|----------------|-----------|------------|
+| Uttar Pradesh  | 629       | 9.81%      |
+| Tamil Nadu     | 600       | 9.36%      |
+| Maharashtra    | 504       | 7.85%      |
+| Karnataka      | 473       | 7.37%      |
+| Haryana        | 398       | 6.20%      |
+
+
 ---
 
 ## 📂 Project Structure
