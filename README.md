@@ -1,4 +1,3 @@
-# Churn-Analysis-and-Prediction-Project
 # 📊 Telecom Customer Churn Analysis & Prediction
 
 This project demonstrates a complete **ETL + Dashboard + Machine Learning** workflow using:
